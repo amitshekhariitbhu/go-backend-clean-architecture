@@ -4,7 +4,17 @@ A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authenti
 
 ![Go Backend Clean Architecture](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-clean-architecture.png?raw=true)
 
-> You can use this project as a template to build your Backend project in the Go language on top of this project.
+**You can use this project as a template to build your Backend project in the Go language on top of this project.**
+
+Before creating this project, I have gone through more than 20 projects related to the Go(Golang) Clean Architecture on GitHub.
+
+Thanks to all those projects, I learned a lot from all of those. As I keep saying:
+
+> The best way to learn to code is to code. But, to write good code, you will also have to read good code. Make a habit of reading good code. You can find many open-source projects on GitHub and start reading.
+
+Then for the implementation part, I combined all of my ideas, experiences, and learnings from those projects to create this project.
+
+And as always I would love to get feedback on my project. This helps everyone and most importantly me.
 
 ## Architecture Layers of the project
 
