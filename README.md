@@ -3,7 +3,7 @@
 A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authentication Middleware, Test, and Docker.
 
 <p align="center">
-    <img alt="Go Backend Clean Architecture" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-arch-learning/main/assets/go-backend-clean-architecture.png" />
+    <img alt="Go Backend Clean Architecture" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-backend-clean-architecture/main/assets/go-backend-clean-architecture.png" />
 </p>
 
 > You can use this project as a template to build your Backend project in the Go language on top of this project.
@@ -17,7 +17,7 @@ A Go (Golang) Backend Clean Architecture project with Gin, MongoDB, JWT Authenti
 - Domain
 
 <p align="center">
-    <img alt="Go Backend Clean Architecture Diagram" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-arch-learning/main/assets/go-backend-arch-diagram.png" />
+    <img alt="Go Backend Clean Architecture Diagram" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-backend-clean-architecture/main/assets/go-backend-arch-diagram.png" />
 </p>
 
 Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
@@ -43,7 +43,7 @@ You can connect with me on:
 ### Public API Request Flow without JWT Authentication Middleware
 
 <p align="center">
-    <img alt="Public API Request Flow" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-arch-learning/main/assets/go-arch-public-api-request-flow.png" />
+    <img alt="Public API Request Flow" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-backend-clean-architecture/main/assets/go-arch-public-api-request-flow.png" />
 </p>
 
 ### Private API Request Flow with JWT Authentication Middleware
@@ -51,7 +51,7 @@ You can connect with me on:
 > JWT Authentication Middleware for Access Token Validation.
 
 <p align="center">
-    <img alt="Private API Request Flow" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-arch-learning/main/assets/go-arch-private-api-request-flow.png" />
+    <img alt="Private API Request Flow" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-backend-clean-architecture/main/assets/go-arch-private-api-request-flow.png" />
 </p>
 
 ### How to run this project?
@@ -171,7 +171,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
 ### API documentation of Go Backend Clean Architecture
 
 <a href="https://documenter.getpostman.com/view/391588/2s8Z75S9xy" target="_blank">
-    <img alt="View API Doc Button" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-arch-learning/main/assets/button-view-api-docs.png" width="200" height="60"/>
+    <img alt="View API Doc Button" src="https://raw.githubusercontent.com/amitshekhariitbhu/go-backend-clean-architecture/main/assets/button-view-api-docs.png" width="200" height="60"/>
 </a>
 
 ### Example API Request and Response
