@@ -16,6 +16,8 @@ Then for the implementation part, I combined all of my ideas, experiences, and l
 
 And as always I would love to get feedback on my project. This helps everyone and most importantly me.
 
+Learn about this project architecture in detail from the blog post: [Go Backend Clean Architecture](https://amitshekhar.me/blog/go-backend-clean-architecture)
+
 ## Architecture Layers of the project
 
 - Router
@@ -25,6 +27,8 @@ And as always I would love to get feedback on my project. This helps everyone an
 - Domain
 
 ![Go Backend Clean Architecture Diagram](https://github.com/amitshekhariitbhu/go-backend-clean-architecture/blob/main/assets/go-backend-arch-diagram.png?raw=true)
+
+## About me
 
 Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
 
