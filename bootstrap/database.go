@@ -17,7 +17,6 @@ func NewMongoDatabase(env *Env) mongo.Client {
 	dbPort := env.DBPort
 	dbUser := env.DBUser
 	dbPass := env.DBPass
-	dbName := env.DBName
 
 	mongodbURI := fmt.Sprintf("mongodb://%s:%s@%s:%s", dbUser, dbPass, dbHost, dbPort)
 
