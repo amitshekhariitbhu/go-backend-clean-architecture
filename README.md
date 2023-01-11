@@ -16,7 +16,10 @@ Then for the implementation part, I combined all of my ideas, experiences, and l
 
 And as always I would love to get feedback on my project. This helps everyone and most importantly me.
 
-Learn about this project architecture in detail from the blog post: [Go Backend Clean Architecture](https://amitshekhar.me/blog/go-backend-clean-architecture)
+Learn about this project architecture in detail from the blogs mentioned below:
+
+- [Go Backend Clean Architecture](https://amitshekhar.me/blog/go-backend-clean-architecture)
+- [Go JWT Authentication Middleware](https://amitshekhar.me/blog/go-jwt-authentication-middleware)
 
 ## Architecture Layers of the project
 
