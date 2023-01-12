@@ -3,10 +3,11 @@ WORKDIR /
 COPY go.mod .
 RUN go mod download
 COPY . .
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o main cmd/main.go
+RUN mkdir exec
+RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -a -o exec/main cmd/main.go
 
 FROM gcr.io/distroless/static:nonroot
 WORKDIR /
-COPY --from=builder /main .
+COPY --from=builder /exec /app
 USER 65532:65532
-ENTRYPOINT ["/main"]
+ENTRYPOINT ["/app/main"]
