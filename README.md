@@ -71,13 +71,13 @@ We can run this Go Backend Clean Architecture project with or without Docker. He
 
 ```bash
 # Move to your workspace
-$ cd your-workspace
+cd your-workspace
 
 # Clone this project into your workspace
-$ git clone https://github.com/amitshekhariitbhu/go-backend-clean-architecture.git
+git clone https://github.com/amitshekhariitbhu/go-backend-clean-architecture.git
 
 # Move to the project root directory
-$ cd go-backend-clean-architecture
+cd go-backend-clean-architecture
 ```
 
 #### Run without Docker
@@ -308,7 +308,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
 - Add more test cases.
 - Always try to update with the latest version of the packages used.
 
-## If this project helps you in anyway, show your love :heart: by putting a :star: on this project :v:
+## If this project helps you in anyway, show your love ❤️ by putting a ⭐ on this project ✌️
 
 ### License
 
