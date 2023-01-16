@@ -20,6 +20,7 @@ Learn about this project architecture in detail from the blogs mentioned below:
 
 - [Go Backend Clean Architecture](https://amitshekhar.me/blog/go-backend-clean-architecture)
 - [Go JWT Authentication Middleware](https://amitshekhar.me/blog/go-jwt-authentication-middleware)
+- [Configuration with Viper in Go](https://amitshekhar.me/blog/configuration-with-viper-in-go)
 - [Test with Testify and Mockery in Go](https://amitshekhar.me/blog/test-with-testify-and-mockery-in-go)
 
 ## Architecture Layers of the project
