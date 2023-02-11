@@ -135,13 +135,12 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
 │   ├── middleware
 │   │   └── jwt_auth_middleware.go
 │   └── route
-│       └── v1
-│           ├── login_route.go
-│           ├── profile_route.go
-│           ├── refresh_token_route.go
-│           ├── route.go
-│           ├── signup_route.go
-│           └── task_route.go
+│       ├── login_route.go
+│       ├── profile_route.go
+│       ├── refresh_token_route.go
+│       ├── route.go
+│       ├── signup_route.go
+│       └── task_route.go
 ├── bootstrap
 │   ├── app.go
 │   ├── database.go
@@ -192,7 +191,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   - Request
 
   ```
-  curl --location --request POST 'http://localhost:8080/v1/signup' \
+  curl --location --request POST 'http://localhost:8080/signup' \
   --data-urlencode 'email=test@gmail.com' \
   --data-urlencode 'password=test' \
   --data-urlencode 'name=Test Name'
@@ -212,7 +211,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   - Request
 
   ```
-  curl --location --request POST 'http://localhost:8080/v1/login' \
+  curl --location --request POST 'http://localhost:8080/login' \
   --data-urlencode 'email=test@gmail.com' \
   --data-urlencode 'password=test'
   ```
@@ -231,7 +230,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   - Request
 
   ```
-  curl --location --request GET 'http://localhost:8080/v1/profile' \
+  curl --location --request GET 'http://localhost:8080/profile' \
   --header 'Authorization: Bearer access_token'
   ```
 
@@ -249,7 +248,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   - Request
 
   ```
-  curl --location --request POST 'http://localhost:8080/v1/task' \
+  curl --location --request POST 'http://localhost:8080/task' \
   --header 'Authorization: Bearer access_token' \
   --header 'Content-Type: application/x-www-form-urlencoded' \
   --data-urlencode 'title=Test Task'
@@ -268,7 +267,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   - Request
 
   ```
-  curl --location --request GET 'http://localhost:8080/v1/task' \
+  curl --location --request GET 'http://localhost:8080/task' \
   --header 'Authorization: Bearer access_token'
   ```
 
@@ -290,7 +289,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   - Request
 
   ```
-  curl --location --request POST 'http://localhost:8080/v1/refresh' \
+  curl --location --request POST 'http://localhost:8080/refresh' \
   --header 'Content-Type: application/x-www-form-urlencoded' \
   --data-urlencode 'refreshToken=refresh_token'
   ```

@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	routeV1 "github.com/amitshekhariitbhu/go-backend-clean-architecture/api/route/v1"
+	route "github.com/amitshekhariitbhu/go-backend-clean-architecture/api/route"
 	"github.com/amitshekhariitbhu/go-backend-clean-architecture/bootstrap"
 	"github.com/gin-gonic/gin"
 )
@@ -21,9 +21,7 @@ func main() {
 
 	gin := gin.Default()
 
-	routerV1 := gin.Group("v1")
-
-	routeV1.Setup(env, timeout, db, routerV1)
+	route.Setup(env, timeout, db, gin)
 
 	gin.Run(env.ServerAddress)
 }
