@@ -18,11 +18,13 @@ func main() {
 	db := app.Mongo.Database(env.DBName)
 	defer app.CloseDBConnection()
 
+	// db_gorm := app.Mysql
+
 	timeout := time.Duration(env.ContextTimeout) * time.Second
 
 	gin := gin.Default()
 
-	route.Setup(env, timeout, db, gin)
+	route.Setup(env, timeout, db, gin, nil)
 
 	gin.Use(cors.Middleware(cors.Config{
 		Origins:         "*",
