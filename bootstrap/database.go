@@ -6,11 +6,13 @@ import (
 	"log"
 	"time"
 
+	"github.com/amitshekhariitbhu/go-backend-clean-architecture/api/db"
 	"github.com/amitshekhariitbhu/go-backend-clean-architecture/mongo"
+	"gorm.io/gorm"
 )
 
 func NewMongoDatabase(env *Env) mongo.Client {
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := context.WithTimeout(context.Background(), 20*time.Second)
 	defer cancel()
 
 	dbHost := env.DBHost
@@ -31,12 +33,12 @@ func NewMongoDatabase(env *Env) mongo.Client {
 
 	err = client.Connect(ctx)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal(" err 1 := ", err)
 	}
 
 	err = client.Ping(ctx)
 	if err != nil {
-		log.Fatal(err)
+		log.Fatal(" err 2 := ", err)
 	}
 
 	return client
@@ -53,4 +55,9 @@ func CloseMongoDBConnection(client mongo.Client) {
 	}
 
 	log.Println("Connection to MongoDB closed.")
+}
+
+func NewMysqlDatabase(env *Env) *gorm.DB {
+
+	return db.NewDatabase().DB
 }

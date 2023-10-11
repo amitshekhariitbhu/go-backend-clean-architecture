@@ -19,12 +19,15 @@ type Env struct {
 	RefreshTokenExpiryHour int    `mapstructure:"REFRESH_TOKEN_EXPIRY_HOUR"`
 	AccessTokenSecret      string `mapstructure:"ACCESS_TOKEN_SECRET"`
 	RefreshTokenSecret     string `mapstructure:"REFRESH_TOKEN_SECRET"`
+	DB_MYSQL_USER          string `mapstructure:"DB_MYSQL_USER"`
+	DB_MYSQL_PASSWORD      string `mapstructure:"DB_MYSQL_PASSWORD"`
+	DB_MYSQL_ROOT_PASSWORD string `mapstructure:"DB_MYSQL_ROOT_PASSWORD"`
+	DB_MYSQL_DATABASE      string `mapstructure:"DB_MYSQL_DATABASE"`
 }
 
 func NewEnv() *Env {
 	env := Env{}
 	viper.SetConfigFile(".env")
-
 	err := viper.ReadInConfig()
 	if err != nil {
 		log.Fatal("Can't find the file .env : ", err)

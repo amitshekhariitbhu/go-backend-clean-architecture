@@ -4,3 +4,5 @@ bin/
 .idea
 .env
 .vscode
+go.mod
+go.sum
