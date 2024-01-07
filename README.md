@@ -323,7 +323,7 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
 ### License
 
 ```
-   Copyright (C) 2023 Amit Shekhar
+   Copyright (C) 2024 Amit Shekhar
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
