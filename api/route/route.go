@@ -10,13 +10,17 @@ import (
 )
 
 func Setup(env *bootstrap.Env, timeout time.Duration, db mongo.Database, gin *gin.Engine) {
-	publicRouter := gin.Group("")
+	router := gin.Group("")
+	// Middleware to allow CORS
+	router.Use(middleware.CORSMiddleware())
+
+	publicRouter := router.Group("")
 	// All Public APIs
 	NewSignupRouter(env, timeout, db, publicRouter)
 	NewLoginRouter(env, timeout, db, publicRouter)
 	NewRefreshTokenRouter(env, timeout, db, publicRouter)
 
-	protectedRouter := gin.Group("")
+	protectedRouter := router.Group("")
 	// Middleware to verify AccessToken
 	protectedRouter.Use(middleware.JwtAuthMiddleware(env.AccessTokenSecret))
 	// All Private APIs
