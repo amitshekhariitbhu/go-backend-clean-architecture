@@ -18,10 +18,10 @@ And as always I would love to get feedback on my project. This helps everyone an
 
 Learn about this project architecture in detail from the blogs mentioned below:
 
-- [Go Backend Clean Architecture](https://amitshekhar.me/blog/go-backend-clean-architecture)
-- [Go JWT Authentication Middleware](https://amitshekhar.me/blog/go-jwt-authentication-middleware)
-- [Configuration with Viper in Go](https://amitshekhar.me/blog/configuration-with-viper-in-go)
-- [Test with Testify and Mockery in Go](https://amitshekhar.me/blog/test-with-testify-and-mockery-in-go)
+- [Go Backend Clean Architecture](https://outcomeschool.com/blog/go-backend-clean-architecture)
+- [Go JWT Authentication Middleware](https://outcomeschool.com/blog/go-jwt-authentication-middleware)
+- [Configuration with Viper in Go](https://outcomeschool.com/blog/configuration-with-viper-in-go)
+- [Test with Testify and Mockery in Go](https://outcomeschool.com/blog/test-with-testify-and-mockery-in-go)
 
 ## Architecture Layers of the project
 
@@ -35,7 +35,7 @@ Learn about this project architecture in detail from the blogs mentioned below:
 
 ## About me
 
-Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+Hi, I am Amit Shekhar, Co-Founder @ [Outcome School](https://outcomeschool.com) • IIT 2010-14 • I have taught and mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
 
 You can connect with me on:
 
