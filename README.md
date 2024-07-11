@@ -22,6 +22,7 @@ Learn about this project architecture in detail from the blogs mentioned below:
 - [Go JWT Authentication Middleware](https://outcomeschool.com/blog/go-jwt-authentication-middleware)
 - [Configuration with Viper in Go](https://outcomeschool.com/blog/configuration-with-viper-in-go)
 - [Test with Testify and Mockery in Go](https://outcomeschool.com/blog/test-with-testify-and-mockery-in-go)
+- [Database Normalization vs Denormalization](https://outcomeschool.com/blog/database-normalization-vs-denormalization)
 
 ## Architecture Layers of the project
 
