@@ -45,8 +45,6 @@ You can connect with me on:
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
-## Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
-
 ## System Design Playlist on YouTube
 
 - [What is System Design?](https://www.youtube.com/watch?v=i4YWRY3hsdA)
@@ -55,6 +53,8 @@ You can connect with me on:
 - [YouTube Video Upload Service - System Design](https://www.youtube.com/watch?v=N0vvJTkokZc)
 - [What is Consistent Hashing?](https://www.youtube.com/watch?v=dV5cIm9T3ss)
 - [Capacity Estimation: Back-of-the-envelope calculation - Twitter](https://www.youtube.com/watch?v=yrbKxzXm6_Q)
+
+## Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
 
 ## Major Packages used in this project
 
