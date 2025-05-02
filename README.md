@@ -45,6 +45,8 @@ You can connect with me on:
 - [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
 - [GitHub](https://github.com/amitshekhariitbhu)
 
+## Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
+
 ## System Design Playlist on YouTube
 
 - [What is System Design?](https://www.youtube.com/watch?v=i4YWRY3hsdA)
