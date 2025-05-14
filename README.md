@@ -47,6 +47,8 @@ You can connect with me on:
 
 ## System Design Playlist on YouTube
 
+We have launched our YouTube channel. Subscribe to the [Outcome School YouTube Channel](https://www.youtube.com/@OutcomeSchool)
+
 - [What is System Design?](https://www.youtube.com/watch?v=i4YWRY3hsdA)
 - [Twitter Timeline Design with Fanout Approach - System Design](https://www.youtube.com/watch?v=_7qHGfwgPz0)
 - [HTTP Request vs HTTP Long-Polling vs WebSocket vs Server-Sent Events](https://www.youtube.com/watch?v=8ksWRX4xV-s)
