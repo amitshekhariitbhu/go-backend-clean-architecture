@@ -56,7 +56,7 @@ We have launched our YouTube channel. Subscribe to the [Outcome School YouTube C
 - [What is Consistent Hashing?](https://www.youtube.com/watch?v=dV5cIm9T3ss)
 - [Capacity Estimation: Back-of-the-envelope calculation - Twitter](https://www.youtube.com/watch?v=yrbKxzXm6_Q)
 
-## Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
+Prepare for Machine Learning Interview: [Machine Learning Interview Questions](https://github.com/amitshekhariitbhu/machine-learning-interview-questions)
 
 ## Major Packages used in this project
 
