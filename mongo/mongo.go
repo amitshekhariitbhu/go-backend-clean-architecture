@@ -2,13 +2,8 @@ package mongo
 
 import (
 	"context"
-	"errors"
-	"reflect"
 	"time"
 
-	"go.mongodb.org/mongo-driver/bson/bsoncodec"
-	"go.mongodb.org/mongo-driver/bson/bsonrw"
-	"go.mongodb.org/mongo-driver/bson/bsontype"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"go.mongodb.org/mongo-driver/mongo/readpref"
@@ -71,27 +66,6 @@ type mongoCursor struct {
 
 type mongoSession struct {
 	mongo.Session
-}
-
-type nullawareDecoder struct {
-	defDecoder bsoncodec.ValueDecoder
-	zeroValue  reflect.Value
-}
-
-func (d *nullawareDecoder) DecodeValue(dctx bsoncodec.DecodeContext, vr bsonrw.ValueReader, val reflect.Value) error {
-	if vr.Type() != bsontype.Null {
-		return d.defDecoder.DecodeValue(dctx, vr, val)
-	}
-
-	if !val.CanSet() {
-		return errors.New("value not settable")
-	}
-	if err := vr.ReadNull(); err != nil {
-		return err
-	}
-	// Set the zero value of val's type:
-	val.Set(d.zeroValue)
-	return nil
 }
 
 func NewClient(connection string) (Client, error) {
