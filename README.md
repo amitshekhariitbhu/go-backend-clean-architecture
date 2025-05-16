@@ -317,6 +317,16 @@ Whenever you make changes in the interfaces of these use-cases, repositories, or
   }
   ```
 
+### Linter "must have"
+[How to](https://golangci-lint.run/usage/install/) install golangci-lint. His project [main](https://golangci-lint.run/) page. Default config [file](.golangci.yml).
+Add to IDE:
+- Goland [plugin](https://github.com/xxpxxxxp/intellij-plugin-golangci-lint)
+- vscode (ctrl+shift+p -> settings.json): 
+```json
+"go.lintTool": "golangci-lint",
+```
+
+
 ### TODO
 
 - Improvement based on feedback.
