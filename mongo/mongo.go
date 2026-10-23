@@ -150,16 +150,25 @@ func (mc *mongoCollection) UpdateOne(ctx context.Context, filter interface{}, up
 
 func (mc *mongoCollection) InsertOne(ctx context.Context, document interface{}) (interface{}, error) {
 	id, err := mc.coll.InsertOne(ctx, document)
+	if id == nil {
+		return nil, err
+	}
 	return id.InsertedID, err
 }
 
 func (mc *mongoCollection) InsertMany(ctx context.Context, document []interface{}) ([]interface{}, error) {
 	res, err := mc.coll.InsertMany(ctx, document)
+	if res == nil {
+		return nil, err
+	}
 	return res.InsertedIDs, err
 }
 
 func (mc *mongoCollection) DeleteOne(ctx context.Context, filter interface{}) (int64, error) {
 	count, err := mc.coll.DeleteOne(ctx, filter)
+	if count == nil {
+		return 0, err
+	}
 	return count.DeletedCount, err
 }
 
